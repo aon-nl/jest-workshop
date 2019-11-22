@@ -1,0 +1,27 @@
+{
+  "name": "aon-jest-workshop",
+  "version": "1.0.0",
+  "description": "Aon Jest workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhelling/aon-jest-workshop.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rhelling/aon-jest-workshop/issues"
+  },
+  "homepage": "https://github.com/rhelling/aon-jest-workshop#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "prettier": "1.19.1"
+  }
+}
