@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test:unit",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "test:matchers": "jest 01-matchers/",
+    "test:setup": "jest 02-test-setup/"
   },
   "repository": {
     "type": "git",
