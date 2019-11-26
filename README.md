@@ -1,3 +1,6 @@
+This repo is full of failing and/or incomplete tests which need to be solved as part of an unit testing workshop.
+
+Workshops contents:
 - boot workshop
 	- git clone
 	- `npm i`
@@ -31,5 +34,3 @@
 - handling async code
 
 - catching exceptions
-
-- exception handling in async code
