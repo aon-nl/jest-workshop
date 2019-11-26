@@ -9,7 +9,8 @@
     "test:matchers": "jest 01-matchers/",
     "test:setup": "jest 02-test-setup/",
     "test:timers": "jest 03-timers/",
-    "test:mocking": "jest 04-mocking/"
+    "test:mocking": "jest 04-mocking/",
+    "test:async-code": "jest 05-async-code/"
   },
   "repository": {
     "type": "git",
