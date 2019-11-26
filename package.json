@@ -10,7 +10,8 @@
     "test:setup": "jest 02-test-setup/",
     "test:timers": "jest 03-timers/",
     "test:mocking": "jest 04-mocking/",
-    "test:async-code": "jest 05-async-code/"
+    "test:async-code": "jest 05-async-code/",
+    "test:exceptions": "jest 06-exceptions/"
   },
   "repository": {
     "type": "git",
