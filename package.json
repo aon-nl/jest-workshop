@@ -8,7 +8,8 @@
     "test:unit": "jest",
     "test:matchers": "jest 01-matchers/",
     "test:setup": "jest 02-test-setup/",
-    "test:timers": "jest 03-timers/"
+    "test:timers": "jest 03-timers/",
+    "test:mocking": "jest 04-mocking/"
   },
   "repository": {
     "type": "git",
