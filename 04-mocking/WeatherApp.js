@@ -14,4 +14,8 @@ export default class WeatherApp {
       ...this.weatherService.getForecast(0)
     }
   }
+
+  get weatherForChristmas() {
+    throw new Error('unimplemented')
+  }
 }

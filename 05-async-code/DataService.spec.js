@@ -8,7 +8,7 @@ describe('DataService', () => {
   })
 
   it('should retrieve data from a given url after a given minimum delay', () => {
-    const data = getData('/my/url', 1000)
+    const data = getDataWithDelay('/my/url', 1000)
 
     expect(data.resolved).toBeTruthy()
   })

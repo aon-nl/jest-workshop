@@ -3,10 +3,10 @@
 describe('TestSetup', () => {
   const entries = []
   beforeAll(() => {
-
   })
 
   it('should contain chocolate', () => {
+    // do not change this test contents
     expect(entries).toContain('chocolate')
     expect(entries.length).toBe(1)
   })
@@ -24,6 +24,7 @@ describe('TestSetup', () => {
     })
 
     it('should contain wine', () => {
+      // do not change this test contents
       expect(entries).not.toContain('chocolate')
       expect(entries).toContain('wine')
       expect(entries.length).toBe(2)
@@ -31,6 +32,7 @@ describe('TestSetup', () => {
   })
 
   it('should not contain wine', () => {
+    // do not change this test contents
     expect(entries).not.toContain('wine')
     expect(entries).toContain('chocolate')
     expect(entries.length).toBe(1)
