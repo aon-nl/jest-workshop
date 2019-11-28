@@ -29,5 +29,8 @@
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
     "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "jest-serializer-html": "^7.0.0"
   }
 }
